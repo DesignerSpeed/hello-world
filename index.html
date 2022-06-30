@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title> Kshapiro </title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+
+<link href="https://db.onlinewebfonts.com/c/2090551770be22b09600a40b0b4673b7?family=Avenir+Medium" rel="stylesheet" type="text/css"/>
+<link href="https://db.onlinewebfonts.com/c/275de2221d9f0c4c9257d17f5a1e4006?family=Avenir+Black" rel="stylesheet" type="text/css"/>  
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css"> 
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/aos.css" />
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $(".nav-bar").click(function(){
+	        $(".navigation").toggleClass("open");
+	        $(".nav-bar").toggleClass("open-nav");
+	    });
+	});
+	
+	// header scrolling
+	$(function() {
+    var header = $(".header");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 1) {
+            header.removeClass('header').addClass("header-alt");
+        } else {
+            header.removeClass("header-alt").addClass('header');
+        }
+    });
+});
+</script>
+</head>
+
+<body>
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2 logo">
+				<img src="images/logo.png" alt="Forttana" />			
+			</div>
+			<div class="col-md-6 menu">
+				<ul>
+					<li class="active"> <a href="#_"> Home </a> </li>
+					<li> <a href="#_"> About Us </a> </li>
+					<li> <a href="#_"> Services </a> </li>
+					<li> <a href="#_"> Testimonials </a> </li>
+				</ul>
+			</div>
+			
+			<div class="col-md-4 right-button">
+				<a href="#_" class="green-btn"> Contact Us</a>				
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+<div class="wrapper">
+	<section class="banner-sec">
+		<div class="container">
+			<div class="left-sec" data-aos="fade-up">
+				<h4 class="sm-head"> We Do </h4>
+				<h2 class="strip-heading ml1"> <span class="strip line"> </span> <span class="text letters">Strategy</span></h2>
+				<ul class="stratey-listing">
+					<li> Corporate  Strategy </li>
+					<li> Economic Strategy </li>
+					<li> New Business Strategy </li>
+				</ul>
+				
+				<p> Our vision is to provide our clients with an outsourced and reliable Strategic CFO Office that either partners with the executive team and/or supports the in-house CFO.  Our goal is to help businesses remain dynamic and fluid so they can adapt in the fast-paced and highly competitive market places. </p>
+				
+				<a href="#_" class="green-btn"> Read more </a>
+			</div>
+			
+			<div class="right-slider">	
+				<div id="bannerSlider" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+					  <img src="images/top-banner.png">
+				    </div>
+				    <div class="carousel-item">
+					  <img src="images/top-banner2.png">
+				    </div>
+				    <div class="carousel-item">
+					  <img src="images/top-banner3.png">
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#bannerSlider" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#bannerSlider" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  </a>
+				</div>		
+			</div>
+		</div>			
+	</section>
+	
+	<section class="about-us-sec">
+		<div class="container">
+			<div class="row">
+				<div class="left-img col-md-6" data-aos="fade-right">
+					<img src="images/img-left.png" />				
+				</div>
+				<div class="right-sec col-md-6" data-aos="fade-up">
+					<h4> About Us </h4>
+					<h3 class="strip-heading aos-item"> <span class="strip"></span> <span class="text">Strategic CFO at your</span></h3>
+					<h3 class="strip-heading"> <span class="strip"></span> <span class="text"> Fingertips</span></h3><br /><br />
+					<p> We offer a plethora of consulting services, serving as a CFO functional office. Services also include corporate strategy and business development. We target start-ups to early stage companies. Our clients become our partners - our goals focus 100% on each clients' needs. </p>
+				</div>
+			</div>		
+		</div>
+	</section>
+	
+	<section class="services-sec">
+		<div class="container">
+			<div class="col-md-9 d-inline-block">
+			<h3 class="strip-heading"> <span class="strip"> </span> <span class="text">OUR SERVICES</span> </h3>
+			<p> Our vision is to provide our clients with an outsourced and reliable Strategic CFO Office that either partners with the executive team and/or supports the in-house CFO.  Our goal is to help businesses remain dynamic and fluid so they can adapt in the fast-paced and highly competitive market places. </p>
+			</div>
+			<div class="row columns-sec">
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Financial Planning & Analysis </h5>
+					<ul>
+						<li> Create or asses financial budgets for Companies </li>
+						<li> Develop processes for budgeting and forecasting </li>
+						<li> Provide financial modeling </li>
+						<li> Implement Financial Planning Systems </li>
+					</ul>
+				</div>
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Financial Advisory </h5>
+					<ul>
+						<li> Serve as an additional sound board and review of project work </li>
+						<li> Assist with regulatory preparation </li>
+						<li> Manage due diligence processes </li>
+						<li> Provide Capital Modeling </li>
+					</ul>
+				</div>
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Economic Feasability </h5>
+					<ul>
+						<li> Asses the financial and qualitative viability of new strategic initiatives </li>
+						<li> Study the impact of the economics of large sporting events </li>
+						<li> Provide solutions for an initiative to meet the required economic goals </li>
+					</ul>
+				</div>
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Capital Preparation </h5>
+					<ul>
+						<li> Help prepare companies for initial funding requests </li>
+						<li> Develop financial models and pitch books </li>
+						<li> Provide financial modeling </li>
+						<li> Implement Financial Planning Systems </li>
+					</ul>
+				</div>
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Strategic Consulting </h5>
+					<ul>
+						<li> Solution based </li>
+						<li> Assist with regulatory preparation </li>
+						<li> Manage due diligence processes </li>
+						<li> Provide Capital Modeling </li>
+					</ul>
+				</div>
+				<div class="col-md-4 box" data-aos="fade-in">
+					<h5 class="strip-title"> Mangement Consulting </h5>
+					<ul>
+						<li> To be updated </li>
+						<li> Study the impact of the economics of large sporting events </li>
+						<li> Provide solutions for an initiative to meet the required economic goals </li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</section>
+	
+	<section class="subcribe-sec">
+		<div class="container" data-aos="zoom-in-up">
+			<div class="col-md-7 d-inline-block">
+			<h4 class="wht-heading"> We always try to be the best support to you as possible </h4>
+			<div class="form-group subscribe">
+				<input type="text" class="text-box" />
+				<button class="wht-btn"> subscribe </button>
+			</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section class="testimonial-sec" data-aos="fade-up">
+		<div class="container">
+			<h3 class="strip-heading"> <span class="strip"> </span> <span class="text">What Our Client Says?</span> </h3>
+			
+			<div class="slider-sec">
+				<div id="testimonialSlider" class="carousel slide col-md-7 d-inline-block" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="images/user1.png" />
+				      <p> Absolutely Great Company to work with kshapiro  I Thank you once again for everything you have done. </p>
+				      <span class="name"> Rubiya Mond De-Patrica</span>
+				      <span class="desig"> CEO, Zexbay-Fine</span>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/user1.png" />
+				      <p> Absolutely Great Company to work with kshapiro  I Thank you once again for everything you have done. </p>
+				      <span class="name"> Rubiya Mond De-Patrica</span>
+				      <span class="desig"> CEO, Zexbay-Fine</span>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/user1.png" />
+				      <p> Absolutely Great Company to work with kshapiro  I Thank you once again for everything you have done. </p>
+				      <span class="name"> Rubiya Mond De-Patrica</span>
+				      <span class="desig"> CEO, Zexbay-Fine</span>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#testimonialSlider" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#testimonialSlider" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  </a>
+				</div>
+			</div>
+		</div>		
+	</section>
+	
+	<section class="contact-sec">
+		<div class="container">
+			<h3 class="strip-heading" data-aos="fade-up"> <span class="strip"> </span> <span class="text">Facing Problem? <br /> Lets Get In Touch Now</span></h3>
+			
+			<div class="col-md-8 contact-form" data-aos="zoom-in-up">
+				<form>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label>First Name </label>
+							<input class="form-control input-text" type="text" placeholder="Robert Lee" />
+						</div>
+						<div class="form-group col-md-6">
+							<label>Last Name </label>
+							<input class="form-control input-text" type="text" placeholder="Anderson" />
+						</div>
+						<div class="form-group col-md-12">
+							<label>Your Email Adress </label>
+							<input class="form-control input-text" type="text" placeholder="kevin.jones@mail.com" />
+						</div>
+						<div class="form-group col-md-12">
+							<label>Which Related Problem You Are Facing? </label>
+							<select class="form-control select-box">
+								<option> Select One </option>
+								<option> Select One </option>
+							</select>
+						</div>
+						<div class="form-group col-md-12">
+							<label>Type Your Message </label>
+							<textarea class="form-control textarea" placeholder="Enter message here"></textarea>
+						</div>
+						<div class="form-group col-md-12 mb0">
+							<button class="green-btn"> Submit </button>
+						</div>
+					</div>
+				</form>				
+			</div>
+		</div>
+	</section>
+</div>
+	
+<footer>
+	<div class="copyright">
+		© 2020 Kshapiro All Rights Reserved
+	</div>
+</footer>
+	
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+$('.carousel').carousel({
+  interval: 4000
+});
+</script>
+
+
+<!-- animation js -->
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>	
+<script>
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml1 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml1 .letter',
+    scale: [0.3,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 2000,
+    delay: (el, i) => 70 * (i+1)
+  }).add({
+    targets: '.strip-heading .strip',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=875',
+    delay: (el, i, l) => 80 * (l - i)
+  }).add({
+    targets: '.ml1',
+    opacity: 0,
+    duration: 2000,
+    easing: "easeOutExpo",
+    delay: 10000
+  });
+</script>
+<!-- animation js -->
+</body>
+</html>
